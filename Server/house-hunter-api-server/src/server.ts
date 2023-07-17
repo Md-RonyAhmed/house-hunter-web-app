@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import { Server } from 'http';
-import config from './config';
 import app from './app';
+import config from './config';
 
 // handle uncaught exceptions
 process.on('uncaughtException', error => {
