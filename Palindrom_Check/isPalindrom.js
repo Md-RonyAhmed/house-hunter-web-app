@@ -8,5 +8,8 @@ const isPalindrome = (str) => {
 
 // Test cases
 console.log(isPalindrome("level"));
+console.log(isPalindrome("121"))
+console.log(isPalindrome("MOM"))
+console.log(isPalindrome("Hero"))
 console.log(isPalindrome("hello"));
 console.log(isPalindrome("A man, a plan, a canal: Panama"));
