@@ -4,5 +4,9 @@
 		"source.fixAll.tslint": true,
 		"source.organizeImports": true
 	},
-	"cSpell.words": ["middlewares", "Rony"]
+	"cSpell.words": [
+		"middlewares",
+		"Rony",
+		"virtuals"
+	]
 }
