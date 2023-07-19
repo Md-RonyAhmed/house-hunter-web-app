@@ -61,7 +61,7 @@ const getAllHouse = async (
         if (field === 'rentPerMonthMin' || field === 'rentPerMonthMax') {
           return {
             rentPerMonth: {
-              [`$${field.includes('Min') ? 'gte' : 'lte'}`]: value,
+              [`$${field.endsWith('Min') ? 'gte' : 'lte'}`]: value,
             },
           };
         }
@@ -70,7 +70,7 @@ const getAllHouse = async (
         };
       }),
     });
-  }
+  }  
 
   const sortConditions: { [key: string]: SortOrder } = {};
 
