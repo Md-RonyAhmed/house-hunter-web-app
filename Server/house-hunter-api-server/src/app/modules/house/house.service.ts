@@ -70,7 +70,7 @@ const getAllHouse = async (
         };
       }),
     });
-  }  
+  }
 
   const sortConditions: { [key: string]: SortOrder } = {};
 
